@@ -123,7 +123,7 @@ function App() {
           <p className="question">Will you be my Valentine?</p>
 
           <img
-            src={isHoveringYes ? '/public/yay-sparkle.gif' : '/public/please.gif'}
+            src={isHoveringYes ? 'https://media.tenor.com/RYmzfAp_1p0AAAAj/peach-goma-happy-shine-stars.gif' : 'https://media.tenor.com/kVYPN27KtDwAAAAj/bear-love.gif'}
             alt={isHoveringYes ? 'Yay!' : 'Bear jumping'}
             className="bear-gif"
           />
@@ -158,11 +158,7 @@ function App() {
         <div className="content-container celebration-page">
           <h1 className="celebration-title">She said yes guysssssssssssss!!!</h1>
 
-          <img
-            src="/public/i-love-you-too-heart.gif"
-            alt="Celebration"
-            className="celebration-gif"
-          />
+          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
 
           <p>
             Thank you for saying yes my love. <br />
@@ -171,11 +167,11 @@ function App() {
 
           <div className="options-row">
             <div className="option-card" onClick={() => setSecondaryView('letter')}>
-              <img src="/public/pusheen-letter.gif" alt="Open letter" className="option-image" />
+              <img src="https://media.tenor.com/ZcHQpxHaVB4AAAAM/pusheen-pusheen-cat.gif" alt="Open letter" className="option-image" />
               <p>A little letter to you my love</p>
             </div>
             <div className="option-card" onClick={() => setSecondaryView('music')}>
-              <img src="/public/music.gif" alt="Open playlist" className="option-image" />
+              <img src="https://media.tenor.com/aHJWo8AyQvAAAAAj/apu-apustaja-apu.gif" alt="Open playlist" className="option-image" />
               <p>A playlist for you my love</p>
             </div>
           </div>
